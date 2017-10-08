@@ -47,7 +47,6 @@ int evaluarRedir(char **argv, char *filename) {
     for (i = 0; i < 20; i++) {
 
         if (argv[i] == NULL) {
-            //filename = NULL;
             return 0;
         }
         if (!strcmp(argv[i], "<")) {

@@ -78,7 +78,7 @@ int main() {
             else {
                 pid = fork();
                 if (pid < 0) {
-                    perror("There was an error creating Child");
+                    perror("Error de creacion de hijo");
                     exit(1);
                 } else if (pid == 0) {
                     if (flag_redirected == 2) {

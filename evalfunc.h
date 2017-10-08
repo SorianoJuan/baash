@@ -7,4 +7,4 @@ int evaluarPipe(char **argv, char **argv1, char **argv2);
 int evaluarBackground(char **argv);
 int evaluarRedir(char **argv, char *filename);
 
-#endif //BAASH_EVALFUNC_H
+#endif //EVALFUNC_H
